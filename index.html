@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Author" content="Sol Battaglia" />
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" />
+    <title>Hello world pale blue dot.</title>
+
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500%7CIBM+Plex+Sans:400,600%7CIBM+Plex+Serif&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FontAwesome-->
+    <script
+      src="https://kit.fontawesome.com/55ff9ec1b1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+
+  <body>
+    <!--     Barra de Navegacion      -->
+    <header>
+      <div class="container">
+        <a href="/"><img src="/images/logo.svg" alt="logo"/></a>
+
+        <nav>
+          <input type="checkbox" id="menu" />
+          <label for="menu">
+            <span id="expand-btn" class="hamburguesa"></span>
+            <span class="hamburguesa"></span>
+            <span class="hamburguesa"></span>
+          </label>
+
+          <ul>
+            <li><a href="#episodios">Episodios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#entrevistas">Entrevistas</a></li>
+            <li><a href="#topicos">Tópicos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--Seccion titulo-->
+    <section class="container showcase">
+      <h1 class="titulo">
+        Hello <span class="tachado"> world</span> <br> pale blue dot<span
+          class="punto-azul"
+          >.</span
+        >
+      </h1>
+      <p class="subtitulo-mobile">
+        Un podcast que explora el mundo de la programación. Nuevos episodios,
+        todos los jueves cada 15 días.
+      </p>
+      <p class="subtitulo-desktop">
+        El portal de podcasts que explora el mundo de la programación y <br />
+        la tecnología. Nuevos episodios, todos los jueves cada 15 días.
+      </p>
+      <a class="btn" href="#">Conocé más</a>
+    </section>
+
+    <!--Seccion Episodios de los podcast-->
+
+    <section class="podcast " id="episodios">
+      <div class="fondo-oblicuo">
+        <div class="container">
+          <h2 class="h2-episodios">Episodios</h2>
+        </div>
+        <div class="contenido-podcast">
+          <div class="episode-container">
+            <iframe class="episodio-podcast"
+              src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+          <iframe class="episodio-podcast"
+            src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe class="episodio-podcast"
+            src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe class="episodio-podcast"
+            src="https://open.spotify.com/embed-podcast/episode/31VyAQAwBiKoHVoYUCEzjQ"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!--Seccion Nosotros  -->
+
+    <section class="nosotros  " id="nosotros">
+      <img class="phone" src="/images/phone.png" alt="" />
+      <div class="resenia">
+        <h2 class="h2-nosotros">De dónde venimos</h2>
+        <p>
+          Our posturings, our imagined self-importance, the delusion that we
+          have some privileged position in the Universe, are challenged by this
+          point of pale light. <br />
+          <br />
+          Our planet is a lonely speck in the great enveloping cosmic dark. In
+          our obscurity, in all this vastness, there is no hint that help will
+          come from elsewhere to save us from ourselves.
+        </p>
+      </div>
+    </section>
+
+    <!--           Seccion Invitadas  -->
+    <section class="invitados" id="entrevistas">
+      <div class="container">
+        <h2 class="h2-invitadas">Invitadas/os estelares</h2>
+      </div>
+
+      <div class="invitadas">
+        <img src="/images/grace-hopper.png" alt="Foto de GRace Hopper" />
+        <img src="/images/Katie-Bouman.png" alt="Foto de Katie Bouman" />
+        <img
+          src="/images/Margaret_Hamilton.png"
+          alt="Foto de Margaret Hamilton"
+        />
+
+        <img src="/images/computers-operators.png" alt="Computadora de 1950" />
+        <img
+          src="/images/computers-operators.png"
+          alt="Operadroeas de computadoras"
+        />
+        <img src="/images/susan-kare.png" alt="Foto de Susan Kare" />
+      </div>
+    </section>
+
+    <!--    Seccion de topicos     -->
+    <section class="container" id="topicos">
+      <h2 class="h2-topicos">Algunos de nuestros temas</h2>
+      <div class="temas container">
+        <figure clas="icono-topicos">
+          <img src="/images/icon1.svg" alt="" />
+          <figcaption>Trabajo remoto</figcaption>
+        </figure>
+
+        <figure clas="icono-topicos">
+          <img src="/images/icon2.svg" alt="" />
+          <figcaption>Repensando la programacion</figcaption>
+        </figure>
+
+        <figure clas="icono-topicos">
+          <img src="/images/icon3.svg" alt="" />
+          <figcaption>Bases del código</figcaption>
+        </figure>
+
+        <figure clas="icono-topicos">
+          <img src="/images/icon4.svg" alt="" />
+          <figcaption>Seguridad informática</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!--               Seccion de Novedades     -->
+    <section class=" text-centrado caja">
+      <div class="novedades container">
+        <h2 class="h2-novedades">¿Querés las ultimas novedades?</h2>
+        <a class="btn">Escuchá los episodios</a>
+      </div>
+    </section>
+
+    <!--      Footer    -->
+    <footer class=" text-centrado">
+      <h3 class="texto-footer">&copy; 2019 — Hello blue pale dot</h3>
+
+      <div class="font-awesome ">
+        <a href="https://www.spotify.com/" target="_blank"
+          ><i class="fab fa-spotify"></i
+        ></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://web.telegram.org/" target="_blank"
+          ><i class="fab fa-telegram"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>
